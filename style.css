@@ -1,0 +1,95 @@
+.navbar{
+    position: fixed;
+}
+.navbar-brand{
+    font-size: 25px !important;
+    font-weight: bold !important;
+    
+}
+
+.nav-item a{
+    font-size: 18px;
+    color: white !important;
+}
+
+
+.container{
+    width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.background{
+    margin-top: 10px;
+}
+.background:hover .img-text{ 
+    opacity: 1;
+}
+
+.img-text{
+    position: absolute;
+    display: block;
+    top: 9000%;
+    left: 50%;
+    transform: translate(-50%,-950%);
+    font-weight: 500;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 22px;
+    opacity: 0;
+    color: rgb(255, 255, 255);
+}
+#title h3{
+    text-align: center;
+    
+}
+#title p{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+.animasion:hover .img-title{ 
+    opacity: 1;
+}
+
+
+.img-title {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 500 ;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    font-size: 22px;
+    opacity: 0;
+}
+
+.card:before {
+    content: '';
+    background-color: #00000085;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    
+    
+}
+.card:hover::before {
+    
+    opacity: 1;
+}
+
+iframe{
+    width: 1110px;
+}
+
+li{
+    padding-left: 15px;
+}
